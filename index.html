@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zein Irfansyah</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+
+  <body>
+    <header class="sticky top-0 z-10 bg-[#f2f5f7]">
+      <nav
+        class="Navbar lg:flex justify-between items-center px-4 py-7 lg:px-28"
+      >
+        <ul class="flex items-center justify-between">
+          <li>
+            <a id="brand" href="#hero" class="flex items-center gap-2 ">
+              <h1 class="text-xl font-bold   transition-all duration-500">
+                ZEIN IRFANSYAH
+              </h1>
+            </a>
+          </li>
+          <button
+            class="sm:hidden hover:bg-white px-3 py-1 transition-all rounded-lg cursor-pointer shadow"
+            :
+            onClick="toggleMenu()"
+            type="button"
+          >
+            <span class="text-xl">&#9776;</span>
+          </button>
+        </ul>
+        <ul id="menu" class="lg:flex gap-5 hidden  transition-all duration-500">
+          <li class="my-5 lg:my-0 lg:mb-0">
+            <a
+              href="#about"
+              class=" text-[#00000092] hover:text-black transition-all duration-500"
+              >About</a
+            >
+          </li>
+          <li class="my-5 lg:my-0 lg:mb-0">
+            <a
+              href="#experiences-educations"
+              class=" text-[#00000092] hover:text-black transition-all duration-500"
+              >Experiences & Educations</a
+            >
+          </li>
+          <li class="my-5 lg:my-0 lg:mb-0">
+            <a
+              href="#certificates"
+              class=" text-[#00000092] hover:text-black transition-all duration-500"
+              >Certificates</a
+            >
+          </li>
+          <li class="my-5 lg:my-0 lg:mb-0">
+            <a
+              href="#skills"
+              class=" text-[#00000092] hover:text-black transition-all duration-500"
+              >Skills</a
+            >
+          </li>
+          <li class="my-5 lg:my-0 lg:mb-0">
+            <a
+              href="#projects"
+              class=" text-[#00000092] hover:text-black transition-all duration-500"
+              >Showcases</a
+            >
+          </li>
+          <li class="my-5 lg:my-0 lg:mb-0">
+            <a
+              href="assets/CV/ats_cv_zeinirfansyah_english.pdf"
+              download="ats_cv_zeinirfansyah_english.pdf"
+              class="bg-[#0b90a0] text-white font-bold hover:text-[#0b90a0] hover:bg-transparent px-4 py-2 border-[3px] border-[#0b90a0] transition-all duration-500 hover:rounded-xl hover:drop-shadow-lg"
+              >Download CV</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section
+        id="hero"
+        class="bg-[#f2f5f7] overflow-hidden transition-all duration-500 py-7 lg:py-[4rem]"
+      >
+        <div
+          class="lg:px-28 flex flex-col lg:flex-row justify-between items-center gap-2"
+        >
+          <div class="flex flex-col items-center lg:items-start lg:w-1/2">
+            <h1
+              class="text-2xl lg:text-5xl font-bold ease-in-out ease-in-out duration-500 mt-4 !leading-snug text-center lg:text-left"
+            >
+              <span
+                class="bg-none lg:bg-[#0b90a0] lg:text-white lg:px-2 lg:outline-dashed lg:outline-2 lg:outline-offset-[4px] lg:outline-[#0b90a0]"
+                >GREETINGS!</span
+              >
+              MY NAME IS
+            </h1>
+            <div class="typewriter">
+              <h1
+                class="text-2xl lg:text-5xl font-bold ease-in-out duration-500  mt-4 !leading-snug text-center lg:text-start"
+              >
+                ZEIN IRFANSYAH
+              </h1>
+            </div>
+
+            <hr class="w-1/2 border-[2px] border-[#1b5f6f] my-4" />
+
+            <h1
+              class=" text-xl lg:text-2xl transition-all duration-500  text-center"
+            >
+              SOFTWARE ENGINEER
+            </h1>
+            <a
+              href="mailto:mail@zeinirfansyah.me"
+              class=" mt-4 bg-[#0b90a0] text-white font-bold hover:text-[#0b90a0] rounded-md hover:bg-transparent px-10 py-2 border-[3px] border-[#0b90a0] transition-all duration-500 hover:rounded-none hover:drop-shadow-lg"
+              >Let's Talk</a
+            >
+            <div
+              class="social-links flex flex-row justify-center items-center mt-4 gap-3"
+            >
+              <a
+                href="https://github.com/zeinirfansyah"
+                class="transition duration-500  p-2 drop-shadow-md rounded hover:rounded-none w-12 hover:translate-y-1 transition-all duration-500"
+                target="_blank"
+              >
+                <img src="assets/icons/github_outline_icon.svg" alt="github" />
+              </a>
+              <a
+                href="https://linkedin.com/in/zein-irfansyah"
+                class="transition duration-500  p-2 drop-shadow-md rounded hover:rounded-none w-12 hover:translate-y-1 transition-all duration-500"
+                target="_blank"
+              >
+                <img
+                  src="assets/icons/linkedin_outline_icon.svg"
+                  alt="github"
+                />
+              </a>
+              <a
+                href="https://instagram.com/zeinirfansyah"
+                class="transition duration-500  p-2 drop-shadow-md rounded hover:rounded-none w-12 hover:translate-y-1  transition-all duration-500"
+                target="_blank"
+              >
+                <img
+                  src="assets/icons/instagram_outline_icon.svg"
+                  alt="github"
+                />
+              </a>
+            </div>
+          </div>
+          <div
+            id="paper-foto"
+            class="lg:w-1/2 flex justify-center items-center lg:my-7 order-first lg:order-last"
+          >
+            <div
+              class="card outline-dashed outline-2 outline-offset-[-6px] outline-[#1b606f86] paper-drop bg-[#fff] w-[75%] lg:rotate-3 lg:hover:rotate-0 transition duration-500 lg:px-8 py-6"
+            >
+              <img src="assets/zein.jpg" alt="Zein Irfansyah" class="" />
+              <div class="desc mt-4 hidden lg:block">
+                <p>
+                  Hai, I&apos;m <strong>Zein Irfansyah</strong>, fresh graduate
+                  of Informatics Department, University of Technology Yogyakarta
+                  with a <strong>GPA of 3.78</strong> and
+                  <strong>1 year of experience</strong> in web development.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        id="about"
+        class="bg-[#fff] overflow-hidden transition-all duration-500 py-7 lg:py-[4rem]"
+      >
+        <div
+          class="lg:px-28 flex flex-col lg:flex-row justify-between items-center gap-2"
+        >
+          <div
+            id="paper-foto"
+            class="w-1/2 lg:w-1/3 flex justify-center items-center lg:my-7"
+          >
+            <div
+              class="card outline-dashed outline-2 outline-offset-[-6px] outline-[#1b606f86] paper-drop bg-[#fff] w-[75%] lg:-rotate-3 lg:hover:rotate-0 transition duration-500 lg:px-8 py-6"
+            >
+              <img src="assets/zein_mask.png" alt="Zein Irfansyah" class="" />
+            </div>
+          </div>
+
+          <div class="flex flex-col items-center lg:items-start px-4 lg:w-2/3">
+            <h2 class="text-[14px] lg:text-xl font-bold text-[#1b5f6f]">
+              BACKGROUND
+            </h2>
+            <hr
+              class="w-1/2 border-[1px] border-[#1b5f6f] my-2 lg:mt-2 lg:mb-4"
+            />
+
+            <div
+              class="lg:text-xl text-[#000000bd] font-thin transition-all duration-500 text-center lg:text-start"
+            >
+              <p class="my-2">
+                Fresh graduate of Informatics Departement from the Universitas
+                Teknologi Yogyakarta with a <strong>GPA of 3.78</strong> and
+                <strong>1 year of experience</strong> in web development.
+              </p>
+              <p class="my-2 hidden lg:block">
+                Possesses a high level of enthusiasm and skills in software
+                engineering and digital technology honed through various
+                software development projects. Specializes in web development
+                using <strong>Laravel and React JS</strong>. Has good
+                discipline, high loyalty, and integrity. Highly motivated to
+                work anywhere and capable of working under pressure.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        id="experiences-educations"
+        class="bg-[#0b90a0] grid grid-cols-1 lg:grid-cols-2 lg:gap-4 overflow-hidden transition-all duration-500 lg:px-28 lg:py-12 text-white"
+      >
+        <div
+          id="experiences-list"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          class="flex flex-col"
+        >
+          <div
+            class="bg-[#D57F5D] px-4 py-2 mt-7 w-fit mx-2 mb-4 paper-drop outline-dashed outline-2 outline-offset-[4px] outline-[#fff]"
+          >
+            <h1
+              class="text-2xl lg:text-3xl font-bold text-[#fff] transition-all duration-500"
+            >
+              Experiences
+            </h1>
+          </div>
+
+          <!-- konten diisi dari json oleh fetch data javascript -->
+        </div>
+        <div
+          id="educations-list"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          class="flex flex-col cols"
+        >
+          <div
+            class="bg-[#D57F5D]  px-4 py-2 mt-7 w-fit mx-2 mb-4 paper-drop outline-dashed outline-2 outline-offset-[4px] outline-[#fff]"
+          >
+            <h1
+              class="text-2xl lg:text-3xl font-bold text-[#fff] transition-all duration-500"
+            >
+              Education
+            </h1>
+          </div>
+
+          <!-- konten diisi dari json oleh fetch data javascript -->
+        </div>
+      </section>
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        id="certificates"
+        class="bg-[#f2f5f7] overflow-hidden transition-all duration-500"
+      >
+        <div
+          class="lg:px-28 flex flex-col lg:justify-center lg:items-center gap-2 my-7 mx-2 lg:mx-0"
+        >
+          <h1
+            class="text-4xl lg:text-5xl font-bold text-[#1b5f6f] transition-all duration-500 mt-7 lg:text-center text-start"
+          >
+            Certificates
+          </h1>
+          <hr class="w-1/2 border-[3px] border-[#1b5f6f] my-4 mx-2 lg:mx-0" />
+          <div
+            id="certificates-list"
+            class="grid grid-cols-1 lg:grid-cols-2 lg:gap-0"
+          >
+            <!-- konten diisi dari json oleh fetch data javascript -->
+          </div>
+          <div
+            id="certificates-list"
+            class="grid grid-cols-1 lg:grid-cols-4 lg:gap-4 mt-3"
+          >
+            <!-- konten diisi dari json oleh fetch data javascript -->
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        id="skills"
+        class="bg-white overflow-hidden transition-all duration-500"
+      >
+        <div
+          class="lg:px-28 flex flex-col justify-start items-start lg:justify-center lg:items-center gap-2 px-4 py-7 bg-[#10808f] text-white"
+        >
+          <div
+            class="bg-[#D57F5D]  px-4 py-2 mt-7 w-fit mx-2 mb-4 paper-drop outline-dashed outline-2 outline-offset-[4px] outline-[#fff]"
+          >
+            <h1
+              class="text-2xl lg:text-3xl font-bold text-[#fff] transition-all duration-500 lg:text-center text-start"
+            >
+              SKILLS
+            </h1>
+          </div>
+          <div
+            id="skills-list"
+            class="grid grid-cols-1 lg:grid-cols-4 lg:gap-4 mt-3"
+          >
+            <!-- konten diisi dari json oleh fetch data javascript -->
+          </div>
+          <hr class="w-1/2 border-[1px] border-[#fff] my-4" />
+          <div
+            id="softskills-list"
+            class="grid grid-cols-1 lg:grid-cols-4 lg:gap-4 mt-3"
+          >
+            <!-- konten diisi dari json oleh fetch data javascript -->
+          </div>
+        </div>
+      </section>
+      <section
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        id="projects"
+        class="bg-[#fff] overflow-hidden transition-all duration-500"
+      >
+        <div
+          class="lg:px-28 flex flex-col justify-center items-center gap-2 my-7"
+        >
+          <div
+            class="flex flex-col items-center bg-[#f2f5f7] paper-drop my-4 p-4  rounded-xl"
+          >
+            <h1
+              class="text-4xl lg:text-5xl font-bold text-[#1b5f6f] transition-all duration-500 mt-7 lg:text-center text-start"
+            >
+              Projects
+            </h1>
+            <hr class="w-1/2 border-[3px] border-[#1b5f6f] my-4 mx-2 lg:mx-0" />
+            <div
+              id="projects-list"
+              class="grid grid-cols-1 lg:grid-cols-2 lg:gap-4"
+            >
+              <!-- konten diisi dari json oleh fetch data javascript -->
+            </div>
+            <div class="flex">
+              <a
+                href="https://github.com/zeinirfansyah?tab=repositories"
+                target="_blank"
+                class="bg-[#10808f] text-[#fff] font-bold hover:text-[#10808f] hover:bg-transparent px-4 py-2 border-[3px] border-[#10808f] transition-all duration-500 hover:rounded-xl hover:drop-shadow-lg outline-2 outline-offset-[4px] outline-dashed outline-[#f2f5f7] hover:outline-[#10808f] my-7"
+                >See More</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col justify-center items-center bg-[#10808f] text-[#fff] text-center py-3 py-4"
+    >
+      Zein Irfansyah - 2024
+    </footer>
+
+    <!-- fetch data javascript biar gak perlu nulis banyak tag tiap nambah data-->
+    <script src="fetch_data.js"></script>
+
+    <!-- perubahan warna navbar ketika scroll -->
+    <script src="navbar_color.js"></script>
+
+    <script>
+      // inisialisasi AoS
+      AOS.init();
+
+
+      // burger button menu
+      const toggleMenu = () => {
+        const menu = document.getElementById("menu");
+        menu.classList.toggle("hidden");
+      };
+
+      // Smooth scroll behavior when clicking on navigation links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          const targetElement = document.querySelector(this.getAttribute('href'));
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,700;0,6..12,800;0,6..12,900;1,6..12,600;1,6..12,700;1,6..12,900&display=swap");
+
+#root {
+  --test: #000000bd;
+  --color1: #243f48;
+  --color2: #1f4f5f;
+  --color3: #1b5f6f;
+  --color4: #16707f;
+  --color5: #10808f;
+  --color6: #0b90a0;
+  --color7: #05a0b0;
+  --color8: #00b0c0;
+  --color9: #00c0d0;
+  --color10: #00d0e0;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+
+#paper-foto {
+  animation: float 3s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+.paper-drop {
+  box-shadow: 0 12px 14px -8px rgba(0, 0, 0, 0.488), 12px 0px 10px -10px rgba(0, 0, 0, 0.261);
+}
+
+/* card */
+.card {
+  padding: 1rem;
+  margin: 1rem;
+}
+/* --- */
+
+.typewriter h1 {
+  overflow: hidden; 
+  border-right: .1em solid rgb(0, 0, 0); 
+  padding-right: 1rem;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+    typing 1.5s steps(30, end),
+    blink-caret 1s step-end infinite;
+}
+
+/* typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-12px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+  
+}

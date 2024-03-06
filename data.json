@@ -1,0 +1,190 @@
+{
+  "skills": [
+    {
+      "title": "Web Development",
+      "description": "Proficient in developing and implementing REST API in web applications using React JS, Laravel, and Express JS."
+    },
+    {
+      "title": "Database Management",
+      "description": "Able to design and build SQL or NoSQL databases using MySQL, PostgreSQL, and Firebase."
+    },
+    {
+      "title": "REST API Implementation",
+      "description": "Capable of integrating REST API into web applications."
+    },
+    {
+      "title": "User Interface Design",
+      "description": "Proficient in creating and implementing user interface designs using Figma."
+    }
+  ],
+  "softskills": [
+    {
+      "title": "Problem-Solving",
+      "description": "Adept at identifying effective solutions to challenges and obstacles."
+    },
+    {
+      "title": "Teamwork",
+      "description": "Able to work in a team and work independently."
+    },
+    {
+      "title": "Analytical Thinking",
+      "description": "Proficient in the analysis of information and the resolution of complex problems."
+    },
+    {
+      "title": "Creative",
+      "description": "Valued for creative thinking and innovative problem-solving abilities."
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Web Developer",
+      "subtitle": "Freelance | October 2023 - Now",
+      "description": "Building a web-based application based on client requests."
+    },
+    {
+      "title": "Project-Based Intern: Frontend VIX Core Initiative",
+      "subtitle": "Core Initiative | April 2023 - May 2023",
+      "description": "Implementing the design into web programming code using Vue.js, conducting unit testing using Jest, and learning the fundamentals of CI/CD."
+    },
+    {
+      "title": "Web Developer Internship",
+      "subtitle": "SMK Daarul Abroor Tasikmalaya | April 2022 - March 2023",
+      "description": "Building and developing a web-based library information system using PHP and MySQL."
+    },
+    {
+      "title": "Comitee of KSPM Goes to School Program",
+      "subtitle": "Kelompok Studi Pasar Modal UTY | March 2022 - April 2022",
+      "description": "Creating a poster design for the 'Goes to School' event, developing a concept for virtual Zoom backgrounds, and designing banners and certificates for the 'Goes to School' activity."
+    }
+  ],
+  "educations": [
+    {
+      "title": "Harisenin.com",
+      "subtitle": "Fullstack Development Bootcamp | February 2024 - Now",
+      "description": "Learn how to develop a fullstack web application and work together as a team to develop the project."
+    },
+    {
+      "title": "Synrgy Academy",
+      "subtitle": "Mobile App Development Bootcamp | September 2022 - December 2022 (DO)",
+      "description": "Learn how to develop android-based mobile applications using Kotlin."
+    },
+    {
+      "title": "Universitas Teknologi Yogyakarta",
+      "subtitle": "Bachelor's degree, Informatics | September 2019 - October 2023",
+      "description": "GPA of 3.78"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Create Web Applications with React",
+      "subtitle": "Dicoding Indonesia - November 2023",
+      "description": "Mastering web frontend development with React JS, React UI Component, Stateful Compoenent, and Controlled Component.",
+      "url": "https://www.dicoding.com/certificates/98XWVM9D9PM3"
+    },
+    {
+      "title": "Create Front-End Web for Beginners",
+      "subtitle": "Dicoding Indonesia - November 2023",
+      "description": "Mastering Browser Object Model, Document Object Model, Event Handling, and Web Component, and Web Storage.",
+      "url": "https://www.dicoding.com/certificates/2VX367343XYQ"
+    },
+    {
+      "title": "The Basics of JavaScript Programming",
+      "subtitle": "Dicoding Indonesia - October 2023",
+      "description": "Mastering basic JavaScript, data structure, object-oriented programming, functional programming, JavaScript module, error handling, asynchronous JavaScript, Node Package Manager, and unit testing using Jest.",
+      "url": "https://www.dicoding.com/certificates/53XE4M1DVZRN"
+    },
+    {
+      "title": "The Basics of Web Programming",
+      "subtitle": "Dicoding Indonesia - September 2023",
+      "description": "Mastering web application development using HTML, CSS, and Responsive Layout concept with Flexbox.",
+      "url": "https://www.dicoding.com/certificates/53XE4M1DVZRN"
+    },
+    {
+      "title": "Applications & Use Cases Professional Certification",
+      "subtitle": "Altair RapidMiner - Agustus 2023",
+      "description": "Mastering application management and use cases for software development.",
+      "url": "https://ti-user-certificates.s3.amazonaws.com/5733896a-1d71-46e5-b0a3-1ffcf845fe21/c2f57445-378e-44ae-993b-47f89c0e9fab-zein-irfansyah-1821cc79-8c09-4d80-b6c1-0fd7eb2b9404-certificate.pdf"
+    },
+    {
+      "title": "React JS Web Frontend Development Bootcamp",
+      "subtitle": "Sanbercode - March 2023",
+      "description": "Mastering web frontend development with React JS, basic web development with HTML and CSS, Basic JavaScript, Modern JavaScript (Asyncrhronous, Object Oriented Programming, and ES6), and Version Control System with Git.",
+      "url": "https://www.google.com/url?q=https://sanbercode.com/sertifikat/generate/d9ed0a7a-465f-4e52-9c7c-4fcf593acca1&sa=D&source=apps-viewer-frontend&ust=1709722115741824&usg=AOvVaw2M9QY9SD7AuqEPuUmtNKG5&hl=id"
+    },
+    {
+      "title" : "How to Build a Product Requirement Document",
+      "subtitle" : "SYNRGY Academy - October 2022",
+      "description": "Mastering product requirement document for software development.",
+      "url": "https://www.linkedin.com/in/zein-irfansyah/"
+    },
+    {
+      "title": "Android App Development with Kotlin",
+      "subtitle": "Udemy - October 2022",
+      "description": "Mastering android app development with Kotlin.",
+      "url": "https://www.linkedin.com/in/zein-irfansyah/"
+    },
+    {
+      "title": "The Complete Java Programing",
+      "subtitle": "Udemy - April 2021",
+      "description": "Mastering basic Java Programming and Object Oriented Programing with Java.",
+      "url": "https://www.udemy.com/certificate/UC-de8922c6-bb67-41d8-ac34-1515bf14fcb1/"
+    },
+    {
+      "title": "PHP & MySQL Certification Course",
+      "subtitle": "YouAccel - November 2020",
+      "description": "Mastering Database Management System with MySQL, Database Design, SQL Concept, Implementation with PHP.",
+      "url": "https://www.google.com/url?q=https://youaccel.com/admin/certificate_gen/tcpdf/ya/certificate_ya2.php?certid%3D66756520&sa=D&source=apps-viewer-frontend&ust=1709722115741855&usg=AOvVaw2_jVJs4suKsCtNH_Bkm4iX&hl=id"
+    },
+    {
+      "title": "Web Development for Beginner",
+      "subtitle": "Udemy - Juny 2020",
+      "description": "Mastering basic web development with HTML, CSS, PHP, and MySQL.",
+      "url": "https://www.udemy.com/certificate/UC-202d0285-cf15-4dc5-91fa-4741ba786665/"
+    }
+  ],
+
+  "projects" : [
+    {
+      "title": "Sistem Informasi Berbasis Web Dinas Pendidikan dan Kebudayaan Kabupaten Natuna",
+      "subtitle": "On Going",
+      "description": "Sistem untuk upload dan manajemen dokumen dinas pendidikan dan kebudayaan kabupaten natuna.",
+      "tech": "Laravel, Bootstrap",
+      "url": "https://perencanaandisdiknatuna.creonexa.site/"
+    },
+    {
+      "title": "Gemini API Implementation to Discord Bot",
+      "subtitle": "Unknown Date",
+      "description": "Build an AI based discord chat bot.",
+      "tech": "Node Js, Gemini API",
+      "url": "https://github.com/zeinirfansyah/discord_ai"
+    },
+    {
+      "title": "Portfolio Website 2023",
+      "subtitle": "2023",
+      "description": "Personal web for branding and portfolio.",
+      "tech": "React Js, Bootstrap",
+      "url": "https://zeinirfansyah.me/"
+    },
+    {
+      "title": "Sistem Informasi Manajemen Inventori Perpustakaan",
+      "subtitle": "April 2022 - November 2022",
+      "description": "Web-based library information system based on PHP and MySQL.",
+      "tech": "Bootstrap, PHP,  MySQL",
+      "url": "https://siperpus.creonexa.site/petugas.php"
+    },
+    {
+      "title": "Discord Rich Presence: Custom Status Activity",
+      "subtitle": "Unknown Date",
+      "description": "Build a custom activity application using Discord Rich Presence.",
+      "tech": "Node Js, Discord Js",
+      "url": "https://github.com/zeinirfansyah/discord_richpresence"
+    },
+    {
+      "title": "Discord Webhook Messenger",
+      "subtitle": "Unknown Date",
+      "description": "Build a messenger application using Discord Webhook.",
+      "tech": "JavaScript",
+      "url": "https://github.com/zeinirfansyah/discord-webhook_chat_messenger"
+    }
+  ]
+}
